@@ -115,6 +115,7 @@ body {
 
 /* About Section */
 .about {
+  padding-top: 20px;
   background-color: #fff8fa;
   padding: 4rem 2rem;
   max-width: 960px;
@@ -394,4 +395,31 @@ body {
     flex-direction: column;
     gap: 0;
   }
+}
+
+/* Section do Forms incorporado */
+.survey-embed {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #fef5f7, #fbe9ec);
+  border-top: 4px solid #e83e8c;
+  border-bottom: 4px solid #e83e8c;
+  margin-bottom: 40px; /* espaçamento entre sections */
+}
+
+.survey-embed__header {
+  max-width: 940px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.survey-embed__header h2 {
+  color: #e83e8c;
+  font-size: clamp(1.5rem, 2.2vw, 2.2rem);
+  margin: 0 0 10px 0;
+}
+
+.survey-embed__header p {
+  color: #333;
+  font-size: 1.05rem;
+  margin: 0 0 16px 0;
 }
